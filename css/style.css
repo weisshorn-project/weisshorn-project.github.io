@@ -1,0 +1,143 @@
+ @font-face {
+    font-family: hnc; /* Имя шрифта */
+    src: url(../fonts/HelveticaNeueCyr-Light.otf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: hnm; /* Имя шрифта */
+    src: url(../fonts/HelveticaNeueCyr-Medium.otf); /* Путь к файлу со шрифтом */
+   }
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex{
+    max-width: 1170px;
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header {
+    background-image: url(../img/header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.top_menu {
+    background-color: rgba(40, 40, 40, 0.40);
+    height: 90px;
+ }
+
+div.menues {
+    padding: 0;
+    margin: 0;
+    height: 20px;
+}
+
+div.menues a {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #f4f8fc;
+    font-weight: 300;
+    margin: auto 15px;
+}
+
+div.menues a:hover {
+    color: #0cc962;
+    text-decoration: underline;
+}
+.lang a{
+    color: #f4f8fc;
+    text-decoration: none;
+    text-transform: uppercase;
+     font-family: hnc;
+    font-size: 16px;
+    padding:  5px;
+  font-weight: 300;
+     border-left: 1px solid #f4f8fc;
+}
+ .lang a:first-child {
+    border-left: none; /* Убираем первую линию слева */
+   }
+.lang a.active_lang{
+    color: #0cc962;
+}
+
+.banner {
+    text-align: center;
+     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+}
+.banner h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 100px;
+}
+.consult{
+    display: block;
+    width: 125px;
+    color: white;
+    background-color: #0cc962;
+    font-family: hnc;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 12px 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.jobs{
+   
+}
+.jobs h1{
+    text-align: center;
+    font-family: hnm;
+    color: #333333;
+    font-size: 26px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+.jobs h1 span{
+    color: #0cc962;
+}
+.offer{
+    text-align: center;
+   }
+.offer img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.offer h2{
+   font-family: hnm;
+    color: #333333;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 4px;
+    border-bottom: 4px solid #0cc962;
+   display: inline-block;
+    clear:both;
+}
+.offer p{
+    padding: 0;
+    font-family: Open Sans;
+    font-size: 15px;
+    color: #555555;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+.design{
+    
+}
